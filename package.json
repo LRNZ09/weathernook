@@ -12,6 +12,8 @@
   "dependencies": {
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
+    "@tanstack/react-router": "0.0.1-beta.194",
+    "@tanstack/router-devtools": "0.0.1-beta.194",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

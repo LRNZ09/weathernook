@@ -1,5 +1,5 @@
+import { QueryFunction } from '@tanstack/react-query'
 import { z } from 'zod'
-
 import weatherApi from '..'
 
 export const getCurrentWeatherResponse = z.object({
@@ -38,7 +38,12 @@ export const getCurrentWeatherResponse = z.object({
   cod: z.number(),
 })
 
-const getCurrentWeather = async ({ queryText }: { queryText: string }) => {
+type GetCurrentWeatherResponse = z.infer<typeof getCurrentWeatherResponse>
+
+const getCurrentWeather: QueryFunction<
+  GetCurrentWeatherResponse,
+  ['getCurrentWeather', { queryText: string }]
+> = async ({ queryKey: [, { queryText }] }) => {
   const response = await weatherApi.get('/weather', {
     params: { q: queryText },
   })

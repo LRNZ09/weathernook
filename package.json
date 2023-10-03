@@ -14,6 +14,8 @@
     "@emotion/styled": "11.11.0",
     "@mui/icons-material": "5.14.11",
     "@mui/material": "5.14.11",
+    "@tanstack/react-query": "4.35.7",
+    "@tanstack/react-query-devtools": "4.35.7",
     "@tanstack/react-router": "0.0.1-beta.194",
     "@tanstack/router-devtools": "0.0.1-beta.194",
     "ahooks": "3.7.8",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "@lrnz09/prettier-config": "1.1.1",
     "@swc/plugin-emotion": "2.5.87",
+    "@tanstack/eslint-plugin-query": "4.36.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",

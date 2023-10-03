@@ -1,6 +1,7 @@
 import { RootRoute, Route, Router } from '@tanstack/react-router'
 import Home from '../modules/home'
 import AppRoot from '../modules/root'
+import Settings from '../modules/settings'
 
 const rootRoute = new RootRoute({
   component: AppRoot,
@@ -15,7 +16,7 @@ const homeRoute = new Route({
 const settingsRoute = new Route({
   getParentRoute: () => rootRoute,
   path: '/settings',
-  component: () => null,
+  component: Settings,
 })
 
 const routeTree = rootRoute.addChildren([homeRoute, settingsRoute])

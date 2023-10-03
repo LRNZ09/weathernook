@@ -1,11 +1,12 @@
 import { Outlet } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/router-devtools'
-import AppHeader from '../../components/AppHeader'
+import Layout from '../../components/Layout'
 
 const AppRoot = () => (
   <>
-    <AppHeader />
-    <Outlet /> {/* Start rendering router matches */}
+    <Layout>
+      <Outlet /> {/* Start rendering router matches */}
+    </Layout>
     <TanStackRouterDevtools />
   </>
 )

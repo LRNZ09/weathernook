@@ -1,9 +1,14 @@
-import { RootRoute, Route, Router } from '@tanstack/react-router'
+import { Route, Router, RouterContext } from '@tanstack/react-router'
 import Home from '../modules/home'
 import AppRoot from '../modules/root'
 import Settings from '../modules/settings'
+import { queryClient } from './queryClient'
 
-const rootRoute = new RootRoute({
+const routerContext = new RouterContext<{
+  queryClient: typeof queryClient
+}>()
+
+const rootRoute = routerContext.createRootRoute({
   component: AppRoot,
 })
 
@@ -21,7 +26,13 @@ const settingsRoute = new Route({
 
 const routeTree = rootRoute.addChildren([homeRoute, settingsRoute])
 
-const router = new Router({ routeTree })
+const router = new Router({
+  context: {
+    queryClient,
+  },
+  defaultPreload: 'intent',
+  routeTree,
+})
 
 declare module '@tanstack/react-router' {
   interface Register {

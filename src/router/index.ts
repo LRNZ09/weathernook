@@ -9,7 +9,13 @@ const homeRoute = new Route({
   component: Home,
 })
 
-const routeTree = rootRoute.addChildren([homeRoute])
+const settingsRoute = new Route({
+  getParentRoute: () => rootRoute,
+  path: '/settings',
+  component: () => null,
+})
+
+const routeTree = rootRoute.addChildren([homeRoute, settingsRoute])
 
 const router = new Router({ routeTree })
 
@@ -19,4 +25,5 @@ declare module '@tanstack/react-router' {
   }
 }
 
+export { homeRoute, settingsRoute }
 export default router

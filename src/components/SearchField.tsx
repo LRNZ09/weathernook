@@ -1,5 +1,14 @@
 import { Search } from '@mui/icons-material'
-import { InputAdornment, InputBase, alpha, styled } from '@mui/material'
+import {
+  InputAdornment,
+  InputBase,
+  InputBaseProps,
+  alpha,
+  styled,
+} from '@mui/material'
+import { useSetAtom } from 'jotai'
+import { useCallback } from 'react'
+import searchFieldValueAtom from '../atoms/searchFieldValueAtom'
 
 const SearchInput = styled(InputBase)(({ theme }) => ({
   color: theme.palette.common.white,
@@ -12,15 +21,24 @@ const SearchInput = styled(InputBase)(({ theme }) => ({
   paddingLeft: theme.spacing(1),
 }))
 
-const SearchInputAdornment = styled(InputAdornment)(({ theme }) => ({
-  color: 'inherit',
-}))
+const SearchInputAdornment = styled(InputAdornment)({ color: 'inherit' })
 
 const SearchField = () => {
+  const setSearchFieldValue = useSetAtom(searchFieldValueAtom)
+
+  const handleChange = useCallback<NonNullable<InputBaseProps['onChange']>>(
+    (event) => {
+      setSearchFieldValue(event.target.value)
+    },
+    [setSearchFieldValue],
+  )
+
   return (
     <SearchInput
+      aria-label='weather location search field'
+      id='weather-location-search-field'
+      onChange={handleChange}
       placeholder='Search…'
-      id='search-field'
       startAdornment={
         <SearchInputAdornment position='start'>
           <Search />

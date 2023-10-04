@@ -5,6 +5,7 @@ const useGetCurrentWeather = (params: { queryText: string }) =>
   useQuery({
     queryKey: ['getCurrentWeather', params],
     queryFn: getCurrentWeather,
+    enabled: !!params.queryText,
   })
 
 export default useGetCurrentWeather

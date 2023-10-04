@@ -4,7 +4,6 @@ import {
   Button,
   Card,
   CardContent,
-  LinearProgress,
   Typography,
 } from '@mui/material'
 import Page from '../../components/Page'
@@ -17,6 +16,7 @@ import WeatherImage from '../../components/WeatherImage'
 import WeatherConditions from '../../components/WeatherConditions'
 import { useAtomValue } from 'jotai'
 import searchFieldValueAtom from '../../atoms/searchFieldAtom'
+import HomeSkeleton from './Skeleton'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)
@@ -29,7 +29,8 @@ const Home = () => {
     void refetch({ cancelRefetch: false })
   }, [refetch])
 
-  if (isLoading) return <LinearProgress />
+  if (isLoading) return <HomeSkeleton />
+
   if (isError)
     return (
       <Page>

@@ -1,0 +1,487 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`getFlagEmoji > emoji for 'Afghanistan' with code 'AF' 1`] = `"🇦🇫"`;
+
+exports[`getFlagEmoji > emoji for 'Albania' with code 'AL' 1`] = `"🇦🇱"`;
+
+exports[`getFlagEmoji > emoji for 'Algeria' with code 'DZ' 1`] = `"🇩🇿"`;
+
+exports[`getFlagEmoji > emoji for 'American Samoa' with code 'AS' 1`] = `"🇦🇸"`;
+
+exports[`getFlagEmoji > emoji for 'AndorrA' with code 'AD' 1`] = `"🇦🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Angola' with code 'AO' 1`] = `"🇦🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Anguilla' with code 'AI' 1`] = `"🇦🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Antarctica' with code 'AQ' 1`] = `"🇦🇶"`;
+
+exports[`getFlagEmoji > emoji for 'Antigua and Barbuda' with code 'AG' 1`] = `"🇦🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Argentina' with code 'AR' 1`] = `"🇦🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Armenia' with code 'AM' 1`] = `"🇦🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Aruba' with code 'AW' 1`] = `"🇦🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Australia' with code 'AU' 1`] = `"🇦🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Austria' with code 'AT' 1`] = `"🇦🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Azerbaijan' with code 'AZ' 1`] = `"🇦🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Bahamas' with code 'BS' 1`] = `"🇧🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Bahrain' with code 'BH' 1`] = `"🇧🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Bangladesh' with code 'BD' 1`] = `"🇧🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Barbados' with code 'BB' 1`] = `"🇧🇧"`;
+
+exports[`getFlagEmoji > emoji for 'Belarus' with code 'BY' 1`] = `"🇧🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Belgium' with code 'BE' 1`] = `"🇧🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Belize' with code 'BZ' 1`] = `"🇧🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Benin' with code 'BJ' 1`] = `"🇧🇯"`;
+
+exports[`getFlagEmoji > emoji for 'Bermuda' with code 'BM' 1`] = `"🇧🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Bhutan' with code 'BT' 1`] = `"🇧🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Bolivia' with code 'BO' 1`] = `"🇧🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Bosnia and Herzegovina' with code 'BA' 1`] = `"🇧🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Botswana' with code 'BW' 1`] = `"🇧🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Bouvet Island' with code 'BV' 1`] = `"🇧🇻"`;
+
+exports[`getFlagEmoji > emoji for 'Brazil' with code 'BR' 1`] = `"🇧🇷"`;
+
+exports[`getFlagEmoji > emoji for 'British Indian Ocean Territory' with code 'IO' 1`] = `"🇮🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Brunei Darussalam' with code 'BN' 1`] = `"🇧🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Bulgaria' with code 'BG' 1`] = `"🇧🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Burkina Faso' with code 'BF' 1`] = `"🇧🇫"`;
+
+exports[`getFlagEmoji > emoji for 'Burundi' with code 'BI' 1`] = `"🇧🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Cambodia' with code 'KH' 1`] = `"🇰🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Cameroon' with code 'CM' 1`] = `"🇨🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Canada' with code 'CA' 1`] = `"🇨🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Cape Verde' with code 'CV' 1`] = `"🇨🇻"`;
+
+exports[`getFlagEmoji > emoji for 'Cayman Islands' with code 'KY' 1`] = `"🇰🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Central African Republic' with code 'CF' 1`] = `"🇨🇫"`;
+
+exports[`getFlagEmoji > emoji for 'Chad' with code 'TD' 1`] = `"🇹🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Chile' with code 'CL' 1`] = `"🇨🇱"`;
+
+exports[`getFlagEmoji > emoji for 'China' with code 'CN' 1`] = `"🇨🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Christmas Island' with code 'CX' 1`] = `"🇨🇽"`;
+
+exports[`getFlagEmoji > emoji for 'Cocos (Keeling) Islands' with code 'CC' 1`] = `"🇨🇨"`;
+
+exports[`getFlagEmoji > emoji for 'Colombia' with code 'CO' 1`] = `"🇨🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Comoros' with code 'KM' 1`] = `"🇰🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Congo' with code 'CG' 1`] = `"🇨🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Congo, The Democratic Republic of the' with code 'CD' 1`] = `"🇨🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Cook Islands' with code 'CK' 1`] = `"🇨🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Costa Rica' with code 'CR' 1`] = `"🇨🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Cote D\\'Ivoire' with code 'CI' 1`] = `"🇨🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Croatia' with code 'HR' 1`] = `"🇭🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Cuba' with code 'CU' 1`] = `"🇨🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Cyprus' with code 'CY' 1`] = `"🇨🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Czech Republic' with code 'CZ' 1`] = `"🇨🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Denmark' with code 'DK' 1`] = `"🇩🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Djibouti' with code 'DJ' 1`] = `"🇩🇯"`;
+
+exports[`getFlagEmoji > emoji for 'Dominica' with code 'DM' 1`] = `"🇩🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Dominican Republic' with code 'DO' 1`] = `"🇩🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Ecuador' with code 'EC' 1`] = `"🇪🇨"`;
+
+exports[`getFlagEmoji > emoji for 'Egypt' with code 'EG' 1`] = `"🇪🇬"`;
+
+exports[`getFlagEmoji > emoji for 'El Salvador' with code 'SV' 1`] = `"🇸🇻"`;
+
+exports[`getFlagEmoji > emoji for 'Equatorial Guinea' with code 'GQ' 1`] = `"🇬🇶"`;
+
+exports[`getFlagEmoji > emoji for 'Eritrea' with code 'ER' 1`] = `"🇪🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Estonia' with code 'EE' 1`] = `"🇪🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Ethiopia' with code 'ET' 1`] = `"🇪🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Falkland Islands (Malvinas)' with code 'FK' 1`] = `"🇫🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Faroe Islands' with code 'FO' 1`] = `"🇫🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Fiji' with code 'FJ' 1`] = `"🇫🇯"`;
+
+exports[`getFlagEmoji > emoji for 'Finland' with code 'FI' 1`] = `"🇫🇮"`;
+
+exports[`getFlagEmoji > emoji for 'France' with code 'FR' 1`] = `"🇫🇷"`;
+
+exports[`getFlagEmoji > emoji for 'French Guiana' with code 'GF' 1`] = `"🇬🇫"`;
+
+exports[`getFlagEmoji > emoji for 'French Polynesia' with code 'PF' 1`] = `"🇵🇫"`;
+
+exports[`getFlagEmoji > emoji for 'French Southern Territories' with code 'TF' 1`] = `"🇹🇫"`;
+
+exports[`getFlagEmoji > emoji for 'Gabon' with code 'GA' 1`] = `"🇬🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Gambia' with code 'GM' 1`] = `"🇬🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Georgia' with code 'GE' 1`] = `"🇬🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Germany' with code 'DE' 1`] = `"🇩🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Ghana' with code 'GH' 1`] = `"🇬🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Gibraltar' with code 'GI' 1`] = `"🇬🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Greece' with code 'GR' 1`] = `"🇬🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Greenland' with code 'GL' 1`] = `"🇬🇱"`;
+
+exports[`getFlagEmoji > emoji for 'Grenada' with code 'GD' 1`] = `"🇬🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Guadeloupe' with code 'GP' 1`] = `"🇬🇵"`;
+
+exports[`getFlagEmoji > emoji for 'Guam' with code 'GU' 1`] = `"🇬🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Guatemala' with code 'GT' 1`] = `"🇬🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Guernsey' with code 'GG' 1`] = `"🇬🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Guinea' with code 'GN' 1`] = `"🇬🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Guinea-Bissau' with code 'GW' 1`] = `"🇬🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Guyana' with code 'GY' 1`] = `"🇬🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Haiti' with code 'HT' 1`] = `"🇭🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Heard Island and Mcdonald Islands' with code 'HM' 1`] = `"🇭🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Holy See (Vatican City State)' with code 'VA' 1`] = `"🇻🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Honduras' with code 'HN' 1`] = `"🇭🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Hong Kong' with code 'HK' 1`] = `"🇭🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Hungary' with code 'HU' 1`] = `"🇭🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Iceland' with code 'IS' 1`] = `"🇮🇸"`;
+
+exports[`getFlagEmoji > emoji for 'India' with code 'IN' 1`] = `"🇮🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Indonesia' with code 'ID' 1`] = `"🇮🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Iran, Islamic Republic Of' with code 'IR' 1`] = `"🇮🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Iraq' with code 'IQ' 1`] = `"🇮🇶"`;
+
+exports[`getFlagEmoji > emoji for 'Ireland' with code 'IE' 1`] = `"🇮🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Isle of Man' with code 'IM' 1`] = `"🇮🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Israel' with code 'IL' 1`] = `"🇮🇱"`;
+
+exports[`getFlagEmoji > emoji for 'Italy' with code 'IT' 1`] = `"🇮🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Jamaica' with code 'JM' 1`] = `"🇯🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Japan' with code 'JP' 1`] = `"🇯🇵"`;
+
+exports[`getFlagEmoji > emoji for 'Jersey' with code 'JE' 1`] = `"🇯🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Jordan' with code 'JO' 1`] = `"🇯🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Kazakhstan' with code 'KZ' 1`] = `"🇰🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Kenya' with code 'KE' 1`] = `"🇰🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Kiribati' with code 'KI' 1`] = `"🇰🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Korea, Democratic People\\'S Republic of' with code 'KP' 1`] = `"🇰🇵"`;
+
+exports[`getFlagEmoji > emoji for 'Korea, Republic of' with code 'KR' 1`] = `"🇰🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Kuwait' with code 'KW' 1`] = `"🇰🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Kyrgyzstan' with code 'KG' 1`] = `"🇰🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Lao People\\'S Democratic Republic' with code 'LA' 1`] = `"🇱🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Latvia' with code 'LV' 1`] = `"🇱🇻"`;
+
+exports[`getFlagEmoji > emoji for 'Lebanon' with code 'LB' 1`] = `"🇱🇧"`;
+
+exports[`getFlagEmoji > emoji for 'Lesotho' with code 'LS' 1`] = `"🇱🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Liberia' with code 'LR' 1`] = `"🇱🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Libyan Arab Jamahiriya' with code 'LY' 1`] = `"🇱🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Liechtenstein' with code 'LI' 1`] = `"🇱🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Lithuania' with code 'LT' 1`] = `"🇱🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Luxembourg' with code 'LU' 1`] = `"🇱🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Macao' with code 'MO' 1`] = `"🇲🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Macedonia, The Former Yugoslav Republic of' with code 'MK' 1`] = `"🇲🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Madagascar' with code 'MG' 1`] = `"🇲🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Malawi' with code 'MW' 1`] = `"🇲🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Malaysia' with code 'MY' 1`] = `"🇲🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Maldives' with code 'MV' 1`] = `"🇲🇻"`;
+
+exports[`getFlagEmoji > emoji for 'Mali' with code 'ML' 1`] = `"🇲🇱"`;
+
+exports[`getFlagEmoji > emoji for 'Malta' with code 'MT' 1`] = `"🇲🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Marshall Islands' with code 'MH' 1`] = `"🇲🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Martinique' with code 'MQ' 1`] = `"🇲🇶"`;
+
+exports[`getFlagEmoji > emoji for 'Mauritania' with code 'MR' 1`] = `"🇲🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Mauritius' with code 'MU' 1`] = `"🇲🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Mayotte' with code 'YT' 1`] = `"🇾🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Mexico' with code 'MX' 1`] = `"🇲🇽"`;
+
+exports[`getFlagEmoji > emoji for 'Micronesia, Federated States of' with code 'FM' 1`] = `"🇫🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Moldova, Republic of' with code 'MD' 1`] = `"🇲🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Monaco' with code 'MC' 1`] = `"🇲🇨"`;
+
+exports[`getFlagEmoji > emoji for 'Mongolia' with code 'MN' 1`] = `"🇲🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Montserrat' with code 'MS' 1`] = `"🇲🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Morocco' with code 'MA' 1`] = `"🇲🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Mozambique' with code 'MZ' 1`] = `"🇲🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Myanmar' with code 'MM' 1`] = `"🇲🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Namibia' with code 'NA' 1`] = `"🇳🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Nauru' with code 'NR' 1`] = `"🇳🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Nepal' with code 'NP' 1`] = `"🇳🇵"`;
+
+exports[`getFlagEmoji > emoji for 'Netherlands Antilles' with code 'AN' 1`] = `"🇦🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Netherlands' with code 'NL' 1`] = `"🇳🇱"`;
+
+exports[`getFlagEmoji > emoji for 'New Caledonia' with code 'NC' 1`] = `"🇳🇨"`;
+
+exports[`getFlagEmoji > emoji for 'New Zealand' with code 'NZ' 1`] = `"🇳🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Nicaragua' with code 'NI' 1`] = `"🇳🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Niger' with code 'NE' 1`] = `"🇳🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Nigeria' with code 'NG' 1`] = `"🇳🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Niue' with code 'NU' 1`] = `"🇳🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Norfolk Island' with code 'NF' 1`] = `"🇳🇫"`;
+
+exports[`getFlagEmoji > emoji for 'Northern Mariana Islands' with code 'MP' 1`] = `"🇲🇵"`;
+
+exports[`getFlagEmoji > emoji for 'Norway' with code 'NO' 1`] = `"🇳🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Oman' with code 'OM' 1`] = `"🇴🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Pakistan' with code 'PK' 1`] = `"🇵🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Palau' with code 'PW' 1`] = `"🇵🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Palestinian Territory, Occupied' with code 'PS' 1`] = `"🇵🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Panama' with code 'PA' 1`] = `"🇵🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Papua New Guinea' with code 'PG' 1`] = `"🇵🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Paraguay' with code 'PY' 1`] = `"🇵🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Peru' with code 'PE' 1`] = `"🇵🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Philippines' with code 'PH' 1`] = `"🇵🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Pitcairn' with code 'PN' 1`] = `"🇵🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Poland' with code 'PL' 1`] = `"🇵🇱"`;
+
+exports[`getFlagEmoji > emoji for 'Portugal' with code 'PT' 1`] = `"🇵🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Puerto Rico' with code 'PR' 1`] = `"🇵🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Qatar' with code 'QA' 1`] = `"🇶🇦"`;
+
+exports[`getFlagEmoji > emoji for 'RWANDA' with code 'RW' 1`] = `"🇷🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Reunion' with code 'RE' 1`] = `"🇷🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Romania' with code 'RO' 1`] = `"🇷🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Russian Federation' with code 'RU' 1`] = `"🇷🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Saint Helena' with code 'SH' 1`] = `"🇸🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Saint Kitts and Nevis' with code 'KN' 1`] = `"🇰🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Saint Lucia' with code 'LC' 1`] = `"🇱🇨"`;
+
+exports[`getFlagEmoji > emoji for 'Saint Pierre and Miquelon' with code 'PM' 1`] = `"🇵🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Saint Vincent and the Grenadines' with code 'VC' 1`] = `"🇻🇨"`;
+
+exports[`getFlagEmoji > emoji for 'Samoa' with code 'WS' 1`] = `"🇼🇸"`;
+
+exports[`getFlagEmoji > emoji for 'San Marino' with code 'SM' 1`] = `"🇸🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Sao Tome and Principe' with code 'ST' 1`] = `"🇸🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Saudi Arabia' with code 'SA' 1`] = `"🇸🇦"`;
+
+exports[`getFlagEmoji > emoji for 'Senegal' with code 'SN' 1`] = `"🇸🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Serbia and Montenegro' with code 'CS' 1`] = `"🇨🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Seychelles' with code 'SC' 1`] = `"🇸🇨"`;
+
+exports[`getFlagEmoji > emoji for 'Sierra Leone' with code 'SL' 1`] = `"🇸🇱"`;
+
+exports[`getFlagEmoji > emoji for 'Singapore' with code 'SG' 1`] = `"🇸🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Slovakia' with code 'SK' 1`] = `"🇸🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Slovenia' with code 'SI' 1`] = `"🇸🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Solomon Islands' with code 'SB' 1`] = `"🇸🇧"`;
+
+exports[`getFlagEmoji > emoji for 'Somalia' with code 'SO' 1`] = `"🇸🇴"`;
+
+exports[`getFlagEmoji > emoji for 'South Africa' with code 'ZA' 1`] = `"🇿🇦"`;
+
+exports[`getFlagEmoji > emoji for 'South Georgia and the South Sandwich Islands' with code 'GS' 1`] = `"🇬🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Spain' with code 'ES' 1`] = `"🇪🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Sri Lanka' with code 'LK' 1`] = `"🇱🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Sudan' with code 'SD' 1`] = `"🇸🇩"`;
+
+exports[`getFlagEmoji > emoji for 'Suriname' with code 'SR' 1`] = `"🇸🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Svalbard and Jan Mayen' with code 'SJ' 1`] = `"🇸🇯"`;
+
+exports[`getFlagEmoji > emoji for 'Swaziland' with code 'SZ' 1`] = `"🇸🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Sweden' with code 'SE' 1`] = `"🇸🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Switzerland' with code 'CH' 1`] = `"🇨🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Syrian Arab Republic' with code 'SY' 1`] = `"🇸🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Taiwan, Province of China' with code 'TW' 1`] = `"🇹🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Tajikistan' with code 'TJ' 1`] = `"🇹🇯"`;
+
+exports[`getFlagEmoji > emoji for 'Tanzania, United Republic of' with code 'TZ' 1`] = `"🇹🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Thailand' with code 'TH' 1`] = `"🇹🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Timor-Leste' with code 'TL' 1`] = `"🇹🇱"`;
+
+exports[`getFlagEmoji > emoji for 'Togo' with code 'TG' 1`] = `"🇹🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Tokelau' with code 'TK' 1`] = `"🇹🇰"`;
+
+exports[`getFlagEmoji > emoji for 'Tonga' with code 'TO' 1`] = `"🇹🇴"`;
+
+exports[`getFlagEmoji > emoji for 'Trinidad and Tobago' with code 'TT' 1`] = `"🇹🇹"`;
+
+exports[`getFlagEmoji > emoji for 'Tunisia' with code 'TN' 1`] = `"🇹🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Turkey' with code 'TR' 1`] = `"🇹🇷"`;
+
+exports[`getFlagEmoji > emoji for 'Turkmenistan' with code 'TM' 1`] = `"🇹🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Turks and Caicos Islands' with code 'TC' 1`] = `"🇹🇨"`;
+
+exports[`getFlagEmoji > emoji for 'Tuvalu' with code 'TV' 1`] = `"🇹🇻"`;
+
+exports[`getFlagEmoji > emoji for 'Uganda' with code 'UG' 1`] = `"🇺🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Ukraine' with code 'UA' 1`] = `"🇺🇦"`;
+
+exports[`getFlagEmoji > emoji for 'United Arab Emirates' with code 'AE' 1`] = `"🇦🇪"`;
+
+exports[`getFlagEmoji > emoji for 'United Kingdom' with code 'GB' 1`] = `"🇬🇧"`;
+
+exports[`getFlagEmoji > emoji for 'United States Minor Outlying Islands' with code 'UM' 1`] = `"🇺🇲"`;
+
+exports[`getFlagEmoji > emoji for 'United States' with code 'US' 1`] = `"🇺🇸"`;
+
+exports[`getFlagEmoji > emoji for 'Uruguay' with code 'UY' 1`] = `"🇺🇾"`;
+
+exports[`getFlagEmoji > emoji for 'Uzbekistan' with code 'UZ' 1`] = `"🇺🇿"`;
+
+exports[`getFlagEmoji > emoji for 'Vanuatu' with code 'VU' 1`] = `"🇻🇺"`;
+
+exports[`getFlagEmoji > emoji for 'Venezuela' with code 'VE' 1`] = `"🇻🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Viet Nam' with code 'VN' 1`] = `"🇻🇳"`;
+
+exports[`getFlagEmoji > emoji for 'Virgin Islands, British' with code 'VG' 1`] = `"🇻🇬"`;
+
+exports[`getFlagEmoji > emoji for 'Virgin Islands, U.S.' with code 'VI' 1`] = `"🇻🇮"`;
+
+exports[`getFlagEmoji > emoji for 'Wallis and Futuna' with code 'WF' 1`] = `"🇼🇫"`;
+
+exports[`getFlagEmoji > emoji for 'Western Sahara' with code 'EH' 1`] = `"🇪🇭"`;
+
+exports[`getFlagEmoji > emoji for 'Yemen' with code 'YE' 1`] = `"🇾🇪"`;
+
+exports[`getFlagEmoji > emoji for 'Zambia' with code 'ZM' 1`] = `"🇿🇲"`;
+
+exports[`getFlagEmoji > emoji for 'Zimbabwe' with code 'ZW' 1`] = `"🇿🇼"`;
+
+exports[`getFlagEmoji > emoji for 'Åland Islands' with code 'AX' 1`] = `"🇦🇽"`;

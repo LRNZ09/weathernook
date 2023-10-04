@@ -20,6 +20,7 @@ import HomeSkeleton from './Skeleton'
 import { useDebounce } from 'ahooks'
 import measurementUnitSelectAtom from '../../atoms/measurementUnitSelectAtom'
 import toTemperature from '../../utils/toTemperature'
+import getFlagEmoji from '../../utils/getFlagEmoji'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)
@@ -79,7 +80,9 @@ const Home = () => {
               <Column>
                 <Flex columnGap={1} alignItems='flex-end'>
                   <Typography variant='h4'>{data.name}</Typography>
-                  <Typography variant='h6'>{data.sys.country}</Typography>
+                  <Typography variant='h6'>
+                    {getFlagEmoji(data.sys.country)}
+                  </Typography>
                 </Flex>
                 <Typography variant='subtitle1' gutterBottom>
                   {data.weather[0].main}

@@ -1,6 +1,6 @@
 import { styled } from '@mui/material'
-import Center from './Center'
+import Column from './Column'
 
-const Page = styled(Center)({ padding: 16 })
+const Page = styled(Column)(({ theme }) => ({ padding: theme.spacing(2) }))
 
 export default Page

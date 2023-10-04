@@ -9,6 +9,8 @@ import {
 import { useSetAtom } from 'jotai'
 import { useCallback } from 'react'
 import searchFieldValueAtom from '../atoms/searchFieldValueAtom'
+import { Link } from '@tanstack/react-router'
+import { homeRoute } from '../router'
 
 const SearchInput = styled(InputBase)(({ theme }) => ({
   color: theme.palette.common.white,
@@ -34,17 +36,19 @@ const SearchField = () => {
   )
 
   return (
-    <SearchInput
-      aria-label='weather location search field'
-      id='weather-location-search-field'
-      onChange={handleChange}
-      placeholder='Search…'
-      startAdornment={
-        <SearchInputAdornment position='start'>
-          <Search />
-        </SearchInputAdornment>
-      }
-    />
+    <Link to={homeRoute.to}>
+      <SearchInput
+        aria-label='weather location search field'
+        id='weather-location-search-field'
+        onChange={handleChange}
+        placeholder='Search…'
+        startAdornment={
+          <SearchInputAdornment position='start'>
+            <Search />
+          </SearchInputAdornment>
+        }
+      />
+    </Link>
   )
 }
 

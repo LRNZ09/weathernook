@@ -8,6 +8,7 @@ import {
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import { DRAWER_WIDTH } from './constants'
+import SearchField from './SearchField'
 
 interface CustomAppBarProps extends AppBarProps {
   open: boolean
@@ -61,6 +62,8 @@ const Header = ({ isMenuOpen, onMenuPress }: HeaderProps) => {
         >
           Weathernook
         </Typography>
+
+        <SearchField />
       </Toolbar>
     </CustomAppBar>
   )

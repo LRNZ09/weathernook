@@ -14,7 +14,7 @@ import Center from '../../components/Center'
 import Column from '../../components/Column'
 import Flex from '../../components/Flex'
 import WeatherImage from '../../components/WeatherImage'
-import WeatherConditionsGrid from '../../components/WeatherConditionsGrid'
+import WeatherConditions from '../../components/WeatherConditions'
 import { useAtomValue } from 'jotai'
 import searchFieldValueAtom from '../../atoms/searchFieldAtom'
 
@@ -73,7 +73,7 @@ const Home = () => {
         </Card>
       </Flex>
 
-      <WeatherConditionsGrid data={data} />
+      <WeatherConditions data={data} />
     </Page>
   )
 }

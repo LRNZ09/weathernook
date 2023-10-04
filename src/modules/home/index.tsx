@@ -16,7 +16,7 @@ import Flex from '../../components/Flex'
 import WeatherImage from '../../components/WeatherImage'
 import WeatherConditionsGrid from '../../components/WeatherConditionsGrid'
 import { useAtomValue } from 'jotai'
-import searchFieldValueAtom from '../../atoms/searchFieldValueAtom'
+import searchFieldValueAtom from '../../atoms/searchFieldAtom'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)

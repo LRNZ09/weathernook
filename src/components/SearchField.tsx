@@ -8,7 +8,7 @@ import {
 } from '@mui/material'
 import { useSetAtom } from 'jotai'
 import { useCallback } from 'react'
-import searchFieldValueAtom from '../atoms/searchFieldValueAtom'
+import searchFieldValueAtom from '../atoms/searchFieldAtom'
 import { Link } from '@tanstack/react-router'
 import { homeRoute } from '../router'
 

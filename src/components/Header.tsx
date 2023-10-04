@@ -52,7 +52,13 @@ const Header = ({ isMenuOpen, onMenuPress }: HeaderProps) => {
           <MenuIcon />
         </IconButton>
 
-        <Typography variant='h6' noWrap component='div'>
+        <Typography
+          fontFamily='monospace'
+          fontWeight={700}
+          letterSpacing={'.3rem'}
+          noWrap
+          variant='h6'
+        >
           Weathernook
         </Typography>
       </Toolbar>

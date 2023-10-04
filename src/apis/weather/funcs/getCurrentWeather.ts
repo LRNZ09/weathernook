@@ -3,16 +3,23 @@ import weatherApi from '..'
 import getCurrentWeatherResponse, {
   GetCurrentWeatherResponse,
 } from '../schemas/getCurrentWeatherResponse'
+import { MeasurementUnit } from '../schemas/measurementUnit'
+
+interface GetCurrentWeatherParams {
+  measurementUnit: MeasurementUnit
+  queryText: string
+}
 
 const getCurrentWeather: QueryFunction<
   GetCurrentWeatherResponse,
-  ['getCurrentWeather', { queryText: string }]
-> = async ({ queryKey: [, { queryText }] }) => {
+  ['getCurrentWeather', GetCurrentWeatherParams]
+> = async ({ queryKey: [, { measurementUnit, queryText }] }) => {
   const response = await weatherApi.get('/weather', {
-    params: { q: queryText },
+    params: { units: measurementUnit, q: queryText },
   })
 
   return getCurrentWeatherResponse.parseAsync(response.data)
 }
 
+export type { GetCurrentWeatherParams }
 export default getCurrentWeather

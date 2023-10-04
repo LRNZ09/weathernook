@@ -17,19 +17,39 @@ import WeatherConditions from '../../components/WeatherConditions'
 import { useAtomValue } from 'jotai'
 import searchFieldValueAtom from '../../atoms/searchFieldAtom'
 import HomeSkeleton from './Skeleton'
+import { useDebounce } from 'ahooks'
+import measurementUnitSelectAtom from '../../atoms/measurementUnitSelectAtom'
+import toTemperature from '../../utils/toTemperature'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)
+  const measurementUnitSelect = useAtomValue(measurementUnitSelectAtom)
 
-  const { data, isLoading, isError, refetch } = useGetCurrentWeather({
-    queryText: searchFieldValue,
-  })
+  const debouncedSearchFieldValue = useDebounce(searchFieldValue)
+
+  const { data, isFetching, isLoading, isError, refetch } =
+    useGetCurrentWeather({
+      queryText: debouncedSearchFieldValue,
+      measurementUnit: measurementUnitSelect,
+    })
 
   const handleRetry = useCallback(() => {
     void refetch({ cancelRefetch: false })
   }, [refetch])
 
-  if (isLoading) return <HomeSkeleton />
+  if (isFetching) return <HomeSkeleton />
+
+  if (isLoading)
+    return (
+      <Page>
+        <Center>
+          <Alert severity='info'>
+            <AlertTitle>Look for a location</AlertTitle>
+            Please search for a location using the text field above.
+          </Alert>
+        </Center>
+      </Page>
+    )
 
   if (isError)
     return (
@@ -51,7 +71,7 @@ const Home = () => {
     )
 
   return (
-    <Page margin={{ sm: 4, md: 6 }} rowGap={2}>
+    <Page rowGap={2}>
       <Flex>
         <Card>
           <CardContent>
@@ -69,7 +89,12 @@ const Home = () => {
               <WeatherImage {...data.weather[0]} />
             </Flex>
 
-            <Typography variant='h3'>{data.main.temp}</Typography>
+            <Typography variant='h3'>
+              {toTemperature({
+                value: data.main.temp,
+                measurementUnit: measurementUnitSelect,
+              })}
+            </Typography>
           </CardContent>
         </Card>
       </Flex>

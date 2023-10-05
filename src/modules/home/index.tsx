@@ -21,6 +21,8 @@ import { useDebounce } from 'ahooks'
 import measurementUnitSelectAtom from '../../atoms/measurementUnitSelectAtom'
 import toTemperature from '../../utils/toTemperature'
 import getFlagEmoji from '../../utils/getFlagEmoji'
+import useGeolocation from '../../hooks/useGeolocation'
+import { GetCurrentWeatherLocationParams } from '../../apis/weather/funcs/getCurrentWeather'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)
@@ -28,9 +30,19 @@ const Home = () => {
 
   const debouncedSearchFieldValue = useDebounce(searchFieldValue)
 
+  const { geolocationPosition } = useGeolocation()
+
+  const locationParams: GetCurrentWeatherLocationParams =
+    geolocationPosition && !debouncedSearchFieldValue
+      ? {
+          latitude: geolocationPosition.coords.latitude,
+          longitude: geolocationPosition.coords.longitude,
+        }
+      : { queryText: debouncedSearchFieldValue }
+
   const { data, isFetching, isLoading, isError, refetch } =
     useGetCurrentWeather({
-      queryText: debouncedSearchFieldValue,
+      ...locationParams,
       measurementUnit: measurementUnitSelect,
     })
 

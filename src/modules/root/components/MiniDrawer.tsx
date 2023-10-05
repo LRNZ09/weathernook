@@ -3,7 +3,6 @@ import {
   CSSObject,
   Divider,
   Drawer,
-  DrawerProps,
   IconButton,
   List,
   ListItem,

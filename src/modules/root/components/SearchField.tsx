@@ -8,9 +8,9 @@ import {
 } from '@mui/material'
 import { useSetAtom } from 'jotai'
 import { useCallback } from 'react'
-import searchFieldValueAtom from '../atoms/searchFieldAtom'
+import searchFieldValueAtom from '../../../atoms/searchFieldAtom'
 import { Link } from '@tanstack/react-router'
-import { homeRoute } from '../router'
+import { homeRoute } from '../../../router'
 
 const SearchInput = styled(InputBase)(({ theme }) => ({
   color: theme.palette.common.white,

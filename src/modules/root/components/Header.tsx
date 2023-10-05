@@ -7,8 +7,11 @@ import {
   styled,
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
-import { DRAWER_WIDTH } from './constants'
+import { DRAWER_WIDTH } from '../../../components/constants'
 import SearchField from './SearchField'
+import { useAtom } from 'jotai'
+import drawerOpenAtom from '../../../atoms/drawerOpenAtom'
+import { useCallback } from 'react'
 
 interface CustomAppBarProps extends AppBarProps {
   open: boolean
@@ -32,23 +35,24 @@ const CustomAppBar = styled(AppBar, {
   }),
 }))
 
-interface HeaderProps {
-  isMenuOpen: boolean
-  onMenuPress: () => void
-}
+const Header = () => {
+  const [drawerOpen, setDrawerOpen] = useAtom(drawerOpenAtom)
 
-const Header = ({ isMenuOpen, onMenuPress }: HeaderProps) => {
+  const handleDrawerClick = useCallback(() => {
+    setDrawerOpen((prev) => !prev)
+  }, [setDrawerOpen])
+
   return (
-    <CustomAppBar open={isMenuOpen} position='sticky'>
+    <CustomAppBar open={drawerOpen} position='sticky'>
       <Toolbar>
         <IconButton
           color='inherit'
-          aria-hidden={isMenuOpen}
+          aria-hidden={drawerOpen}
           aria-label='toggle drawer'
-          onClick={onMenuPress}
+          onClick={handleDrawerClick}
           edge='start'
-          hidden={isMenuOpen}
-          sx={{ mr: 5, ...(isMenuOpen && { display: 'none' }) }}
+          hidden={drawerOpen}
+          sx={{ mr: 5, ...(drawerOpen && { display: 'none' }) }}
         >
           <MenuIcon />
         </IconButton>

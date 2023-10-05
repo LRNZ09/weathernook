@@ -15,10 +15,12 @@ import {
   useTheme,
 } from '@mui/material'
 import { Link } from '@tanstack/react-router'
-import { homeRoute, settingsRoute } from '../router'
-import Flex from './Flex'
-import { DRAWER_WIDTH } from './constants'
-import { OverrideProperties } from 'type-fest'
+import { homeRoute, settingsRoute } from '../../../router'
+import Flex from '../../../components/Flex'
+import { DRAWER_WIDTH } from '../../../components/constants'
+import { useCallback } from 'react'
+import { useAtom } from 'jotai'
+import drawerOpenAtom from '../../../atoms/drawerOpenAtom'
 
 const openedMixin = (theme: Theme): CSSObject => ({
   width: DRAWER_WIDTH,
@@ -71,18 +73,17 @@ const DrawerChevronIcon = () => {
   return <ChevronLeft />
 }
 
-type MiniDrawerProps = OverrideProperties<
-  Required<Pick<DrawerProps, 'onClose' | 'open'>>,
-  {
-    onClose: () => void
-  }
->
+const MiniDrawer = () => {
+  const [drawerOpen, setDrawerOpen] = useAtom(drawerOpenAtom)
 
-const MiniDrawer = ({ onClose, ...props }: MiniDrawerProps) => {
+  const handleClose = useCallback(() => {
+    setDrawerOpen(false)
+  }, [setDrawerOpen])
+
   return (
-    <CustomDrawer {...props} onClose={onClose} variant='permanent'>
+    <CustomDrawer open={drawerOpen} onClose={handleClose} variant='permanent'>
       <DrawerHeader>
-        <IconButton onClick={onClose}>
+        <IconButton onClick={handleClose}>
           <DrawerChevronIcon />
         </IconButton>
       </DrawerHeader>

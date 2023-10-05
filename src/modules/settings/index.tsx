@@ -1,6 +1,6 @@
 import Page from '../../components/Page'
 import { Grid } from '@mui/material'
-import MeasurementUnitSelect from '../../components/MeasurementUnitSelect'
+import MeasurementUnitSelect from './components/MeasurementUnitSelect'
 import WeatherVideoSwitch from './components/WeatherVideoSwitch'
 
 const Settings = () => {

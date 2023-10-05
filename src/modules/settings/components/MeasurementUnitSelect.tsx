@@ -9,8 +9,8 @@ import { useAtom } from 'jotai'
 import { useCallback, useMemo } from 'react'
 import measurementUnit, {
   MeasurementUnit,
-} from '../apis/weather/schemas/measurementUnit'
-import measurementUnitSelectAtom from '../atoms/measurementUnitSelectAtom'
+} from '../../../apis/weather/schemas/measurementUnit'
+import measurementUnitSelectAtom from '../../../atoms/measurementUnitSelectAtom'
 
 const measurementUnitLabelMap = {
   [measurementUnit.enum.imperial]: 'Imperial',

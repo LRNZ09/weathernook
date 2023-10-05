@@ -1,7 +1,8 @@
 import { FormControlLabel, Switch, SwitchProps } from '@mui/material'
 import { useAtom } from 'jotai'
-import weatherVideoSwitchAtom from '../../../atoms/weatherVideoSwitchAtom'
 import { useCallback } from 'react'
+
+import weatherVideoSwitchAtom from '../../../atoms/weatherVideoSwitchAtom'
 
 const WeatherVideoSwitch = () => {
   const [checked, setChecked] = useAtom(weatherVideoSwitchAtom)

@@ -6,24 +6,25 @@ import {
   CardContent,
   Typography,
 } from '@mui/material'
-import Page from '../../components/Page'
+import { useDebounce } from 'ahooks'
+import { useAtomValue } from 'jotai'
 import { useCallback } from 'react'
+
+import HomeSkeleton from './Skeleton'
+import WeatherConditions from './components/WeatherConditions'
+import WeatherImage from './components/WeatherImage'
+import WeatherVideo from './components/WeatherVideo'
+import { GetCurrentWeatherLocationParams } from '../../apis/weather/funcs/getCurrentWeather'
 import useGetCurrentWeather from '../../apis/weather/hooks/useGetCurrentWeather'
+import measurementUnitSelectAtom from '../../atoms/measurementUnitSelectAtom'
+import searchFieldValueAtom from '../../atoms/searchFieldAtom'
 import Center from '../../components/Center'
 import Column from '../../components/Column'
 import Flex from '../../components/Flex'
-import WeatherImage from './components/WeatherImage'
-import WeatherConditions from './components/WeatherConditions'
-import { useAtomValue } from 'jotai'
-import searchFieldValueAtom from '../../atoms/searchFieldAtom'
-import HomeSkeleton from './Skeleton'
-import { useDebounce } from 'ahooks'
-import measurementUnitSelectAtom from '../../atoms/measurementUnitSelectAtom'
-import toTemperature from '../../utils/toTemperature'
-import getFlagEmoji from '../../utils/getFlagEmoji'
+import Page from '../../components/Page'
 import useGeolocation from '../../hooks/useGeolocation'
-import { GetCurrentWeatherLocationParams } from '../../apis/weather/funcs/getCurrentWeather'
-import WeatherVideo from './components/WeatherVideo'
+import getFlagEmoji from '../../utils/getFlagEmoji'
+import toTemperature from '../../utils/toTemperature'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)

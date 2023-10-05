@@ -1,4 +1,5 @@
 import { styled } from '@mui/material'
+
 import Flex from './Flex'
 
 const Center = styled(Flex)({

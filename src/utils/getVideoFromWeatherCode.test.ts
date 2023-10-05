@@ -1,5 +1,7 @@
 import { test, fc } from '@fast-check/vitest'
 import { describe, expect } from 'vitest'
+
+import getVideoFromWeatherCode from './getVideoFromWeatherCode'
 import brokenClouds from '../assets/videos/broken-clouds.mp4'
 import clearSky from '../assets/videos/clear-sky.mp4'
 import fewClouds from '../assets/videos/few-clouds.mp4'
@@ -9,7 +11,6 @@ import scatteredClouds from '../assets/videos/scattered-clouds.mp4'
 import showerRain from '../assets/videos/shower-rain.mp4'
 import snow from '../assets/videos/snow.mp4'
 import thunderstorm from '../assets/videos/thunderstorm.mp4'
-import getVideoFromWeatherCode from './getVideoFromWeatherCode'
 
 describe('getVideoFromWeatherCode', () => {
   test.prop([fc.integer({ min: 200, max: 299 })])('thunderstorm', (code) => {

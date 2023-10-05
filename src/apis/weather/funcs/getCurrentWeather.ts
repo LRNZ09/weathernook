@@ -1,10 +1,11 @@
 import { QueryFunction } from '@tanstack/react-query'
+import { MergeExclusive } from 'type-fest'
+
 import weatherApi from '..'
 import getCurrentWeatherResponse, {
   GetCurrentWeatherResponse,
 } from '../schemas/getCurrentWeatherResponse'
 import { MeasurementUnit } from '../schemas/measurementUnit'
-import { MergeExclusive } from 'type-fest'
 
 type GetCurrentWeatherLatLonParams = Pick<
   GeolocationCoordinates,

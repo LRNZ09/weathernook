@@ -14,12 +14,13 @@ import {
   useTheme,
 } from '@mui/material'
 import { Link } from '@tanstack/react-router'
-import { homeRoute, settingsRoute } from '../../../router'
+import { useAtom } from 'jotai'
+import { useCallback } from 'react'
+
+import drawerOpenAtom from '../../../atoms/drawerOpenAtom'
 import Flex from '../../../components/Flex'
 import { DRAWER_WIDTH } from '../../../components/constants'
-import { useCallback } from 'react'
-import { useAtom } from 'jotai'
-import drawerOpenAtom from '../../../atoms/drawerOpenAtom'
+import { homeRoute, settingsRoute } from '../../../router'
 
 const openedMixin = (theme: Theme): CSSObject => ({
   width: DRAWER_WIDTH,

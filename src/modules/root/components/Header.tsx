@@ -1,3 +1,4 @@
+import MenuIcon from '@mui/icons-material/Menu'
 import {
   AppBar,
   AppBarProps,
@@ -6,12 +7,12 @@ import {
   Typography,
   styled,
 } from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu'
-import { DRAWER_WIDTH } from '../../../components/constants'
-import SearchField from './SearchField'
 import { useAtom } from 'jotai'
-import drawerOpenAtom from '../../../atoms/drawerOpenAtom'
 import { useCallback } from 'react'
+
+import SearchField from './SearchField'
+import drawerOpenAtom from '../../../atoms/drawerOpenAtom'
+import { DRAWER_WIDTH } from '../../../components/constants'
 
 interface CustomAppBarProps extends AppBarProps {
   open: boolean

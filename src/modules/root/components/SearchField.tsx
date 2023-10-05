@@ -6,10 +6,11 @@ import {
   alpha,
   styled,
 } from '@mui/material'
+import { Link } from '@tanstack/react-router'
 import { useSetAtom } from 'jotai'
 import { useCallback } from 'react'
+
 import searchFieldValueAtom from '../../../atoms/searchFieldAtom'
-import { Link } from '@tanstack/react-router'
 import { homeRoute } from '../../../router'
 
 const SearchInput = styled(InputBase)(({ theme }) => ({

@@ -1,3 +1,4 @@
+import { SvgIconComponent } from '@mui/icons-material'
 import {
   Avatar,
   Card,
@@ -5,7 +6,6 @@ import {
   ListItemAvatar,
   ListItemText,
 } from '@mui/material'
-import { SvgIconComponent } from '@mui/icons-material'
 
 export interface WeatherDetailCardProps {
   label: string

@@ -1,5 +1,5 @@
 import WeatherDetailCard, { WeatherDetailCardProps } from './WeatherDetailCard'
-import { GetCurrentWeatherResponse } from '../apis/weather/schemas/getCurrentWeatherResponse'
+import { GetCurrentWeatherResponse } from '../../../apis/weather/schemas/getCurrentWeatherResponse'
 import { useMemo } from 'react'
 import {
   Air,
@@ -12,10 +12,10 @@ import {
 } from '@mui/icons-material'
 import WeatherConditionsGrid from './WeatherConditionsGrid'
 import WeatherConditionsGridItem from './WeatherConditionsGridItem'
-import toTemperature from '../utils/toTemperature'
+import toTemperature from '../../../utils/toTemperature'
 import { useAtomValue } from 'jotai'
-import measurementUnitSelectAtom from '../atoms/measurementUnitSelectAtom'
-import toSpeed from '../utils/toSpeed'
+import measurementUnitSelectAtom from '../../../atoms/measurementUnitSelectAtom'
+import toSpeed from '../../../utils/toSpeed'
 
 interface WeatherConditionsProps {
   data: GetCurrentWeatherResponse

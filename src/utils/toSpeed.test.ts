@@ -4,7 +4,7 @@ import toSpeed, { measurementUnitSpeedMap } from './toSpeed'
 import measurementUnit from '../apis/weather/schemas/measurementUnit'
 
 const paramsArbitrary = {
-  value: fc.nat(),
+  value: fc.float({ noDefaultInfinity: true, noNaN: true }),
   measurementUnit: fc.constantFrom(...measurementUnit.options),
 }
 

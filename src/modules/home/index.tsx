@@ -23,6 +23,7 @@ import toTemperature from '../../utils/toTemperature'
 import getFlagEmoji from '../../utils/getFlagEmoji'
 import useGeolocation from '../../hooks/useGeolocation'
 import { GetCurrentWeatherLocationParams } from '../../apis/weather/funcs/getCurrentWeather'
+import WeatherVideo from './components/WeatherVideo'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)
@@ -84,38 +85,41 @@ const Home = () => {
     )
 
   return (
-    <Page rowGap={2}>
-      <Flex>
-        <Card>
-          <CardContent>
-            <Flex alignItems='center' columnGap={3}>
-              <Column>
-                <Flex columnGap={1} alignItems='flex-end'>
-                  <Typography variant='h4'>{data.name}</Typography>
-                  <Typography variant='h6'>
-                    {getFlagEmoji(data.sys.country)}
+    <>
+      <WeatherVideo code={data.weather[0].id} />
+      <Page rowGap={2}>
+        <Flex>
+          <Card>
+            <CardContent>
+              <Flex alignItems='center' columnGap={3}>
+                <Column>
+                  <Flex columnGap={1} alignItems='flex-end'>
+                    <Typography variant='h4'>{data.name}</Typography>
+                    <Typography variant='h6'>
+                      {getFlagEmoji(data.sys.country)}
+                    </Typography>
+                  </Flex>
+                  <Typography variant='subtitle1' gutterBottom>
+                    {data.weather[0].main}
                   </Typography>
-                </Flex>
-                <Typography variant='subtitle1' gutterBottom>
-                  {data.weather[0].main}
-                </Typography>
-              </Column>
+                </Column>
 
-              <WeatherImage {...data.weather[0]} />
-            </Flex>
+                <WeatherImage {...data.weather[0]} />
+              </Flex>
 
-            <Typography variant='h3'>
-              {toTemperature({
-                value: data.main.temp,
-                measurementUnit: measurementUnitSelect,
-              })}
-            </Typography>
-          </CardContent>
-        </Card>
-      </Flex>
+              <Typography variant='h3'>
+                {toTemperature({
+                  value: data.main.temp,
+                  measurementUnit: measurementUnitSelect,
+                })}
+              </Typography>
+            </CardContent>
+          </Card>
+        </Flex>
 
-      <WeatherConditions data={data} />
-    </Page>
+        <WeatherConditions data={data} />
+      </Page>
+    </>
   )
 }
 

@@ -1,8 +1,8 @@
 module.exports = {
-  root: true,
-  env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
+    'universe',
+    'universe/shared/typescript-analysis',
     'plugin:@typescript-eslint/strict-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:jsx-a11y/recommended',
@@ -17,16 +17,16 @@ module.exports = {
     'prettier.config.js',
     'vite.config.ts',
   ],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
-  root: true,
   plugins: ['react-refresh'],
+  root: true,
   rules: {
+    'no-void': ['error', { allowAsStatement: true }],
     '@typescript-eslint/ban-types': [
       'error',
       {
@@ -42,5 +42,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+  },
+  settings: {
+    react: { version: 'detect' },
   },
 }

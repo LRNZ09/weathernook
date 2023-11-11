@@ -21,7 +21,7 @@
     "@tanstack/react-router": "0.0.1-beta.194",
     "@tanstack/router-devtools": "0.0.1-beta.194",
     "ahooks": "3.7.8",
-    "axios": "1.5.1",
+    "axios": "1.6.0",
     "jotai": "2.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

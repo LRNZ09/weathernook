@@ -10,11 +10,7 @@ import { useDebounce } from 'ahooks'
 import { useAtomValue } from 'jotai'
 import { useCallback } from 'react'
 
-import HomeSkeleton from './Skeleton'
-import WeatherConditions from './components/WeatherConditions'
-import WeatherImage from './components/WeatherImage'
-import WeatherVideo from './components/WeatherVideo'
-import { GetCurrentWeatherLocationParams } from '../../apis/weather/funcs/getCurrentWeather'
+import type { GetCurrentWeatherLocationParams } from '../../apis/weather/funcs/getCurrentWeather'
 import useGetCurrentWeather from '../../apis/weather/hooks/useGetCurrentWeather'
 import measurementUnitSelectAtom from '../../atoms/measurementUnitSelectAtom'
 import searchFieldValueAtom from '../../atoms/searchFieldAtom'
@@ -25,6 +21,10 @@ import Page from '../../components/Page'
 import useGeolocation from '../../hooks/useGeolocation'
 import getFlagEmoji from '../../utils/getFlagEmoji'
 import toTemperature from '../../utils/toTemperature'
+import HomeSkeleton from './Skeleton'
+import WeatherConditions from './components/WeatherConditions'
+import WeatherImage from './components/WeatherImage'
+import WeatherVideo from './components/WeatherVideo'
 
 const Home = () => {
   const searchFieldValue = useAtomValue(searchFieldValueAtom)

@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 
 import getCurrentWeather, {
-  GetCurrentWeatherParams,
+  type GetCurrentWeatherParams,
 } from '../funcs/getCurrentWeather'
 
 const useGetCurrentWeather = (params: GetCurrentWeatherParams) =>

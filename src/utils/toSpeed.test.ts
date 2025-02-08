@@ -1,8 +1,8 @@
-import { test, fc } from '@fast-check/vitest'
+import { fc, test } from '@fast-check/vitest'
 import { describe, expect } from 'vitest'
 
-import toSpeed, { measurementUnitSpeedMap } from './toSpeed'
 import measurementUnit from '../apis/weather/schemas/measurementUnit'
+import toSpeed, { measurementUnitSpeedMap } from './toSpeed'
 
 const paramsArbitrary = {
   value: fc.float({ noDefaultInfinity: true, noNaN: true }),

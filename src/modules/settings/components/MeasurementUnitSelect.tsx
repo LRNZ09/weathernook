@@ -3,13 +3,13 @@ import {
   InputLabel,
   MenuItem,
   Select,
-  SelectProps,
+  type SelectProps,
 } from '@mui/material'
 import { useAtom } from 'jotai'
 import { useCallback, useMemo } from 'react'
 
 import measurementUnit, {
-  MeasurementUnit,
+  type MeasurementUnit,
 } from '../../../apis/weather/schemas/measurementUnit'
 import measurementUnitSelectAtom from '../../../atoms/measurementUnitSelectAtom'
 

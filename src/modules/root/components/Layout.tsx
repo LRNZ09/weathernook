@@ -1,9 +1,9 @@
-import { PropsWithChildren } from 'react'
+import type { PropsWithChildren } from 'react'
 
+import Flex from '../../../components/Flex'
 import Header from './Header'
 import Main from './Main'
 import MiniDrawer from './MiniDrawer'
-import Flex from '../../../components/Flex'
 
 const Layout = ({ children }: PropsWithChildren) => (
   <>

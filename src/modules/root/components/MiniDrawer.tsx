@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight, Home, Settings } from '@mui/icons-material'
 import {
-  CSSObject,
+  type CSSObject,
   Divider,
   Drawer,
   IconButton,
@@ -9,7 +9,7 @@ import {
   ListItemButton,
   ListItemIcon,
   ListItemText,
-  Theme,
+  type Theme,
   styled,
   useTheme,
 } from '@mui/material'

@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material'
-import { PropsWithChildren } from 'react'
+import type { PropsWithChildren } from 'react'
 
 const WeatherConditionsGridItem = ({ children }: PropsWithChildren) => {
   return (

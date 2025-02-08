@@ -2,7 +2,7 @@ import { Search } from '@mui/icons-material'
 import {
   InputAdornment,
   InputBase,
-  InputBaseProps,
+  type InputBaseProps,
   alpha,
   styled,
 } from '@mui/material'

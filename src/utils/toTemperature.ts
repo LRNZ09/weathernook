@@ -1,5 +1,5 @@
 import measurementUnit, {
-  MeasurementUnit,
+  type MeasurementUnit,
 } from '../apis/weather/schemas/measurementUnit'
 
 const measurementUnitTemperatureMap = {

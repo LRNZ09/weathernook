@@ -1,4 +1,4 @@
-import { GetCurrentWeatherResponse } from '../apis/weather/schemas/getCurrentWeatherResponse'
+import type { GetCurrentWeatherResponse } from '../apis/weather/schemas/getCurrentWeatherResponse'
 import brokenClouds from '../assets/videos/broken-clouds.mp4'
 import clearSky from '../assets/videos/clear-sky.mp4'
 import fewClouds from '../assets/videos/few-clouds.mp4'

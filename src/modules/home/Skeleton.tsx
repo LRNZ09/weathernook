@@ -1,9 +1,9 @@
 import { Skeleton } from '@mui/material'
 import { useMemo } from 'react'
 
+import Page from '../../components/Page'
 import WeatherConditionsGrid from './components/WeatherConditionsGrid'
 import WeatherConditionsGridItem from './components/WeatherConditionsGridItem'
-import Page from '../../components/Page'
 
 const HomeSkeleton = () => {
   const weatherConditionsSkeletonItems = useMemo(

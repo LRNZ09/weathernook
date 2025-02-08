@@ -1,6 +1,6 @@
 import { useAtomValue } from 'jotai'
 
-import { GetCurrentWeatherResponse } from '../../../apis/weather/schemas/getCurrentWeatherResponse'
+import type { GetCurrentWeatherResponse } from '../../../apis/weather/schemas/getCurrentWeatherResponse'
 import weatherVideoSwitchAtom from '../../../atoms/weatherVideoSwitchAtom'
 import BackgroundVideo from '../../../components/BackgroundVideo'
 import getVideoFromWeatherCode from '../../../utils/getVideoFromWeatherCode'

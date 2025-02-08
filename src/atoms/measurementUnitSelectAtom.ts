@@ -1,7 +1,7 @@
 import { atomWithStorage } from 'jotai/utils'
 
 import measurementUnit, {
-  MeasurementUnit,
+  type MeasurementUnit,
 } from '../apis/weather/schemas/measurementUnit'
 
 const measurementUnitSelectAtom = atomWithStorage<MeasurementUnit>(

@@ -1,9 +1,9 @@
 import { Route, Router, RouterContext } from '@tanstack/react-router'
 
-import { queryClient } from './queryClient'
 import Home from '../modules/home'
 import AppRoot from '../modules/root'
 import Settings from '../modules/settings'
+import { queryClient } from './queryClient'
 
 const routerContext = new RouterContext<{
   queryClient: typeof queryClient

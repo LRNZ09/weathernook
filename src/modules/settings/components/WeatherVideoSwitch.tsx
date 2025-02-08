@@ -1,4 +1,4 @@
-import { FormControlLabel, Switch, SwitchProps } from '@mui/material'
+import { FormControlLabel, Switch, type SwitchProps } from '@mui/material'
 import { useAtom } from 'jotai'
 import { useCallback } from 'react'
 

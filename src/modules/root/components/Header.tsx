@@ -1,7 +1,7 @@
 import MenuIcon from '@mui/icons-material/Menu'
 import {
   AppBar,
-  AppBarProps,
+  type AppBarProps,
   IconButton,
   Toolbar,
   Typography,
@@ -10,9 +10,9 @@ import {
 import { useAtom } from 'jotai'
 import { useCallback } from 'react'
 
-import SearchField from './SearchField'
 import drawerOpenAtom from '../../../atoms/drawerOpenAtom'
 import { DRAWER_WIDTH } from '../../../components/constants'
+import SearchField from './SearchField'
 
 interface CustomAppBarProps extends AppBarProps {
   open: boolean

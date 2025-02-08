@@ -10,13 +10,15 @@ import {
 import { useAtomValue } from 'jotai'
 import { useMemo } from 'react'
 
-import WeatherConditionsGrid from './WeatherConditionsGrid'
-import WeatherConditionsGridItem from './WeatherConditionsGridItem'
-import WeatherDetailCard, { WeatherDetailCardProps } from './WeatherDetailCard'
-import { GetCurrentWeatherResponse } from '../../../apis/weather/schemas/getCurrentWeatherResponse'
+import type { GetCurrentWeatherResponse } from '../../../apis/weather/schemas/getCurrentWeatherResponse'
 import measurementUnitSelectAtom from '../../../atoms/measurementUnitSelectAtom'
 import toSpeed from '../../../utils/toSpeed'
 import toTemperature from '../../../utils/toTemperature'
+import WeatherConditionsGrid from './WeatherConditionsGrid'
+import WeatherConditionsGridItem from './WeatherConditionsGridItem'
+import WeatherDetailCard, {
+  type WeatherDetailCardProps,
+} from './WeatherDetailCard'
 
 interface WeatherConditionsProps {
   data: GetCurrentWeatherResponse
